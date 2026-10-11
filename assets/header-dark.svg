@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
   <title id="title">Wowblk</title>
-  <desc id="desc">Agent systems and backend engineering</desc>
+  <desc id="desc">Agent safety and Agent systems</desc>
   <defs>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M 28 0 H 0 V 28" fill="none" stroke="#172438" stroke-width="1"/></pattern>
     <clipPath id="edge"><rect width="960" height="220" rx="16"/></clipPath>
@@ -12,7 +12,7 @@
     <rect x="52" y="38" width="24" height="3" rx="1.5" fill="#5eead4"/>
     <text x="87" y="44" fill="#91a4be" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2">OPEN SOURCE</text>
     <text x="49" y="124" fill="#e6edf6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Wowblk</text>
-    <text x="53" y="169" fill="#91a4be" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23">Agent systems · backend engineering</text>
+    <text x="53" y="169" fill="#91a4be" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="23">Agent safety · Agent systems</text>
     <path d="M 720 72 L 743 148 L 777 96 L 811 148 L 834 72" fill="none" stroke="#e6edf6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M 710 166 H 850" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round"/>
     <circle cx="868" cy="55" r="4" fill="#5eead4"/>
