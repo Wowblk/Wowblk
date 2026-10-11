@@ -1,47 +1,44 @@
-# Hi, I'm Wowblk
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wowblk/Wowblk/main/assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wowblk/Wowblk/main/assets/header-light.svg">
+  <img alt="Wowblk. Agent systems and backend engineering." src="https://raw.githubusercontent.com/Wowblk/Wowblk/main/assets/header-light.svg" width="960">
+</picture>
 
-**Agent engineering · Runtime safety · Backend systems**
+I build the systems around AI agents: tool permissions, sandboxed execution, and context management.
 
-I build agent runtimes, backend services, and tools for turning long-form material into readable notes.
+关注 Agent 如何调用工具、管理上下文，以及在明确的执行边界内运行。
 
-关注 Agent 的执行边界，也做后端系统和实用工具。
+`Python` · `Java` · `Go` · `TypeScript`
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+## Selected work
 
-## Start here
+### [TitanX](https://github.com/Wowblk/TitanX)
 
-- **[TitanX](https://github.com/Wowblk/TitanX)** is a Python Agent SDK / framework for tool authorization, context management, and sandboxed execution.
-- **[KnowFlow](https://github.com/Wowblk/KnowFlow)** combines a knowledge community and AI assistant, with Spring Boot, React, a Go gateway, and TitanX.
-- **[video-bilingual-notes](https://github.com/Wowblk/video-bilingual-notes)** turns videos into bilingual reading documents with original transcripts, timestamps, and screenshots.
+An agent framework with explicit execution boundaries. The Python SDK brings together tool authorization, policy controls, context compaction, audit logs, and sandbox backends.
 
-## What I'm working on
+[Code & architecture](https://github.com/Wowblk/TitanX#readme) · [Security model](https://github.com/Wowblk/TitanX/blob/main/SECURITY.md)
 
-- Making tool permissions and execution boundaries explicit in [TitanX's runtime](https://github.com/Wowblk/TitanX), with a documented [security model](https://github.com/Wowblk/TitanX/blob/main/SECURITY.md).
-- Connecting agents to backend applications through [KnowFlow](https://github.com/Wowblk/KnowFlow).
-- Keeping source material traceable while building [bilingual video notes](https://github.com/Wowblk/video-bilingual-notes).
+### [KnowFlow](https://github.com/Wowblk/KnowFlow)
+
+A knowledge community with an AI assistant for finding content, organizing published posts, and creating drafts. Built with Spring Boot, React, a Go gateway, and TitanX.
+
+[Code & setup](https://github.com/Wowblk/KnowFlow#readme)
+
+### [video-bilingual-notes](https://github.com/Wowblk/video-bilingual-notes)
+
+A Codex skill and Python helper for reading videos as bilingual documents. It keeps original transcripts, translations, timestamps, and screenshots together, with checks for source coverage.
+
+[Install & examples](https://github.com/Wowblk/video-bilingual-notes#readme)
 
 <details>
 <summary>中文项目介绍</summary>
 
-### TitanX
-
-Python Agent SDK / 框架，围绕 Model-Tool Loop 构建运行时，包含工具授权、策略控制、上下文压缩、审计和沙箱执行模块。
-
-### KnowFlow
-
-知识社区与 AI 助手项目。Spring Boot 后端、React 前端和 Go gateway 组成应用，TitanX Agent 支持内容检索、整理和草稿创建。
-
-### video-bilingual-notes
-
-将视频、课程和访谈整理为保留原文的中英对照阅读文档，附时间戳与对应截图。Codex skill 负责翻译与校核，Python 工具检查来源覆盖并生成 Markdown 和 HTML。
+- **[TitanX](https://github.com/Wowblk/TitanX)** 是 Python Agent SDK / 框架，关注工具授权、上下文压缩、策略控制、审计和沙箱执行。
+- **[KnowFlow](https://github.com/Wowblk/KnowFlow)** 是知识社区与 AI 助手项目，通过 Java 后端、Go gateway、React 前端和 TitanX 支持内容检索、整理与草稿创建。
+- **[video-bilingual-notes](https://github.com/Wowblk/video-bilingual-notes)** 将视频整理为中英对照阅读文档，保留原文、时间戳与截图，并检查来源覆盖。
 
 </details>
 
-## Connect
+---
 
-[GitHub](https://github.com/Wowblk) · [Repositories](https://github.com/Wowblk?tab=repositories)
-
-Questions, ideas, or bug reports? Open an issue in the relevant project. 欢迎在对应仓库交流。
+For questions, ideas, or bug reports, open an issue in the relevant project. 欢迎在项目仓库交流。
