@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wowblk/Wowblk/main/assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wowblk/Wowblk/main/assets/header-light.svg">
-  <img alt="Wowblk. Agent safety and Agent systems." src="https://raw.githubusercontent.com/Wowblk/Wowblk/main/assets/header-light.svg" width="960">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Wowblk/Wowblk/bf561833881001c806fd7becbc5fec4b8ebd9605/assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Wowblk/Wowblk/bf561833881001c806fd7becbc5fec4b8ebd9605/assets/header-light.svg">
+  <img alt="Wowblk. Agent safety and Agent systems." src="https://raw.githubusercontent.com/Wowblk/Wowblk/bf561833881001c806fd7becbc5fec4b8ebd9605/assets/header-light.svg" width="960">
 </picture>
 
 I work on Agent safety and Agent systems, with a focus on tool authorization, sandboxed execution, and context management.
